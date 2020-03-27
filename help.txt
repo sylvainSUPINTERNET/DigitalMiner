@@ -1,0 +1,22 @@
+to activate venv
+https://programwithus.com/learn-to-code/Pip-and-virtualenv-on-Windows/
+
+(use libs from venv) install via pip install XX
+
+generate requirements.txt
+
+(copy all dependencies from venv)
+
+pip freeze > requirements.txt
+
+
+>python3 -m pip install colorama -install sur notre python local
+
+pip install termcolor -install sur le venv (mieux)
+
+
+# request
+#https://www.twilio.com/blog/2016/12/http-requests-in-python-3.html
+
+# BS4
+https://hackersandslackers.com/scraping-urls-with-beautifulsoup/
