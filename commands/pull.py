@@ -15,7 +15,7 @@ generatorService = Generator()
 @click.command()
 @click.option('--url', default="", help='URL target')
 @click.option('--elements', default="all", help='Indicate elements HTML you need such as : link_h1_article_<your_element...>')
-@click.option('--format', default="excel", help='Choose your format (supported : excel)')
+@click.option('--format', default="", help='Choose your format (supported : excel)')
 def pull(url, elements, format):
     if not url:
         click.echo(
